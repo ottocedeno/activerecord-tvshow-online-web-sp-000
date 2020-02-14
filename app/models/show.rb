@@ -23,7 +23,7 @@ class Show < ActiveRecord::Base
     self.where("rating > ?", 5)
   end
 
-  def method_name
+  def self.shows_by_alphabetical_order
 
   end
 end
